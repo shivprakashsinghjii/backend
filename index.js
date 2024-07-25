@@ -138,6 +138,10 @@ function startServer() {
           return info;
         })
       );
+      console.log(
+        "Device information retrieved successfully",
+        updatedDeviceInfos
+      ); // Add log
       res.status(200).json({
         message: "Device information retrieved successfully",
         data: updatedDeviceInfos,
