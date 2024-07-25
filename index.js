@@ -9,7 +9,8 @@ const bodyParser = require("body-parser");
 const router = require("./Routes/router"); // Ensure this path is correct
 
 const corsConfig = {
-  origin: "*",
+  // origin: "origin: ["https://internship-project-12345-yvl9.vercel.app/"],",
+  origin: ["https://internship-project-12345-yvl9.vercel.app/"],
   credential: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
 };
